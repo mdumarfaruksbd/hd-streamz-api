@@ -56,7 +56,7 @@ foreach($results as $x => $val) {
 echo " <tr>
     <td> $x</td>
     <td>$val[id]</td>
-    <td><a href='https://durbinlive.com/test/link.php?id=$val[id]&quality=0'>$val[title]</a></td></tr></th>";
+    <td><a href='/link.php?id=$val[id]&quality=0'>$val[title]</a></td></tr></th>";
 }
 // echo($results[0["id"]); 
 
