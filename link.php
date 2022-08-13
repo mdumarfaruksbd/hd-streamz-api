@@ -66,7 +66,7 @@ if($url1 !="")
 //$url2 = $_GET["type"];
 if($url !=""){
 
-$data =file_get_contents("https://hdstreamz.me/stm-v3/api/def34.php?id=${url}&quality=${url1}&type=0");
+$data =file_get_contents("https://prod-fastly-ap-southeast-1.e5xx.xyz/stm-v3/api/def34.php?id=${url}&quality=${url1}&type=0");
 $tok =json_decode($data, true);
 $vid_token = $tok['data'];
 $vid_token1 = json_encode($vid_token);
