@@ -54,7 +54,7 @@ button {border-radius: 20px;}
 </style>
   </head>
   <body>
-    <div align="center"> <h2>Copy Link Hare:</h2>
+    <div align="center"> <h2>Copy Link Hare:</h2> </div>
 <?php
 // usage index.php?c=Channel_ID
 // Don't Change Any Thing !
