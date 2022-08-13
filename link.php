@@ -100,7 +100,7 @@ echo "
   //file_put_contents("tok.txt",$vid_token4);
 //header("Location: $m3u8"); //--> For Direct Play
 }
-else{
+//else{
   $ex= array("error" => "Something went wrong, Check URL", "created_by" => "DurbinLIVE" );
   $error =json_encode($ex);
 
