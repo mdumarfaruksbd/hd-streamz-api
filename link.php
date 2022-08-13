@@ -96,7 +96,7 @@ echo "<p style='text-align:center'>Available More Link $name  </p>";
 foreach($ql as $x => $val) {
 echo "
 <div align='center'>
-<button class='button'> <a href='https://durbinlive.com/test/link.php?id=${url}&quality=${x}'> $val</a></button></div>";}
+<button class='button'> <a href='/link.php?id=${url}&quality=${x}'> $val</a></button></div>";}
   //file_put_contents("tok.txt",$vid_token4);
 //header("Location: $m3u8"); //--> For Direct Play
 }
