@@ -100,12 +100,7 @@ echo "
   //file_put_contents("tok.txt",$vid_token4);
 //header("Location: $m3u8"); //--> For Direct Play
 }
-//else{
-  $ex= array("error" => "Something went wrong, Check URL", "created_by" => "DurbinLIVE" );
-  $error =json_encode($ex);
 
-  echo $error;
-}
 
 ?>
   <div align="center"> <h2>Developed by <a href="https://t.me/durbinlive"> DurbinLive </a> team </h2></div>  
